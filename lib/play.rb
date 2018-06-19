@@ -37,8 +37,9 @@ end
 
 def play(board)
   count = 0
-  while count <9
+  while count <8
     turn(board)
     count +=1
   end
+  puts "No more moves left"
 end
